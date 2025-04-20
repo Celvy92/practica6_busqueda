@@ -1,0 +1,57 @@
+body {
+        font-family: 'Segoe UI', sans-serif;
+        background-image: url('imagenes/navidad3.jpg'); /* Ruta relativa */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        color: #fff;
+    }
+    
+    .container {
+        max-width: 500px;
+        margin: 100px auto;
+        padding: 30px;
+        background-color: rgba(29, 53, 87, 0.85); /* fondo con transparencia */
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+}
+
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #1d3557;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f77f00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d62828;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+}
